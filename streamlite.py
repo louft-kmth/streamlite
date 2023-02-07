@@ -34,10 +34,6 @@ st.write("j'espère que je saurais utiliser streamlite pour de bon!")
 fig_corr=sns.heatmap(voiture.corr(),center=0,cmap = sns.color_palette("vlag", as_cmap=True),annot=True)
 st.pyplot(fig_corr)
 
-st.__version__
-
-fig1=px.bar(voiture,x="continent",y="cylinders",animation_frame="year",title="les 10 pays avec un nombre d'homicide elevé")
-fig1.show()
 
 
 
