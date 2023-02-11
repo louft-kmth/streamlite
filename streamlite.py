@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
 import seaborn as sns
-import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 st.title('Bienvenue sur mon application!')
 st.write('Ici nous allons visualiser une étude sur les voitures')
