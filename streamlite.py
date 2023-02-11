@@ -17,7 +17,6 @@ st.write('Nous allons voir un nuage de points entre cylinders et cubicinches')
 st.line_chart(data=voiture,x='cylinders',y='cubicinches')
 fig1=px.bar(voiture,x="continent",y="weightlbs",animation_frame="year")
 st.plotly_chart(fig1, use_container_width=True)
-st.sidebar.selectbox('selection le continents que vous voulez',("Japon","Usa","Europe"))
 cond=voiture.continent.str.contains('Japan')
 dfjapan=voiture[cond]
 cond1=voiture.continent.str.contains('US')
